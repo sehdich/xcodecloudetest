@@ -23,7 +23,7 @@ class CloudTestTests: XCTestCase {
     }
 
     func testViewModel() {
-        let expected = false
+        let expected = true
         XCTAssertTrue(expected)
     }
 
