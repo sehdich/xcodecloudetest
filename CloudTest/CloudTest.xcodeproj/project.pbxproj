@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		095CB70F2744E088002672D6 /* CloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095CB70F2744E088002672D6 /* CloudTestXCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTestXCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095CB7122744E088002672D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		095CB7142744E088002672D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		095CB7162744E088002672D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		095CB7102744E088002672D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				095CB70F2744E088002672D6 /* CloudTest.app */,
+				095CB70F2744E088002672D6 /* CloudTestXCodeTest.app */,
 				095CB7252744E08A002672D6 /* CloudTestTests.xctest */,
 				095CB72F2744E08A002672D6 /* CloudTestUITests.xctest */,
 			);
@@ -144,7 +144,7 @@
 			);
 			name = CloudTest;
 			productName = CloudTest;
-			productReference = 095CB70F2744E088002672D6 /* CloudTest.app */;
+			productReference = 095CB70F2744E088002672D6 /* CloudTestXCodeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 		095CB7242744E08A002672D6 /* CloudTestTests */ = {
@@ -198,7 +198,6 @@
 					};
 					095CB7242744E08A002672D6 = {
 						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 095CB70E2744E088002672D6;
 					};
 					095CB72E2744E08A002672D6 = {
 						CreatedOnToolsVersion = 13.2;
@@ -452,11 +451,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mfapps.CloudTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfapps.findmepro;
+				PRODUCT_NAME = CloudTestXCodeTest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -480,11 +479,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mfapps.CloudTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfapps.findmepro;
+				PRODUCT_NAME = CloudTestXCodeTest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -492,7 +491,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X26SE8AGSV;
@@ -504,7 +502,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTest.app/CloudTest";
 			};
 			name = Debug;
 		};
@@ -512,7 +509,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X26SE8AGSV;
@@ -524,7 +520,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTest.app/CloudTest";
 			};
 			name = Release;
 		};
