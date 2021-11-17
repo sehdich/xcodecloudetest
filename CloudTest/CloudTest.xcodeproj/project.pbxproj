@@ -198,6 +198,7 @@
 					};
 					095CB7242744E08A002672D6 = {
 						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 095CB70E2744E088002672D6;
 					};
 					095CB72E2744E08A002672D6 = {
 						CreatedOnToolsVersion = 13.2;
@@ -491,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X26SE8AGSV;
@@ -502,6 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTestXCodeTest.app/CloudTestXCodeTest";
 			};
 			name = Debug;
 		};
@@ -509,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X26SE8AGSV;
@@ -520,6 +524,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTestXCodeTest.app/CloudTestXCodeTest";
 			};
 			name = Release;
 		};
